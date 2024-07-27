@@ -2,4 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    scroll-behavior: smooth;
+}
 
+.bg-banner{
+    background-image: url('/public/images/slider/6.jpg');
+    background-size: cover;
+}
